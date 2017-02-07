@@ -8,13 +8,13 @@
 
 import UIKit
 
-//1) Add Protoclo here
+//MARK: step 1 Add Protoclo here
 
 class ClassBVC: UIViewController {
     
     @IBOutlet weak var firstView: UIView!
     @IBOutlet weak var secondView: UIView!
-    //2) Create a delegate property, don't forget to make it weak!
+//MARK: step 2 Create a delegate property here, don't forget to make it weak!
 
 
     override func viewDidLoad() {
@@ -38,6 +38,6 @@ class ClassBVC: UIViewController {
     func handleTap(_ tapGesture: UITapGestureRecognizer) {
         
         view.backgroundColor = tapGesture.view?.backgroundColor
-        //3 Add the delegate method call
+        //MARK: step 3 Add the delegate method call here
     }
 }

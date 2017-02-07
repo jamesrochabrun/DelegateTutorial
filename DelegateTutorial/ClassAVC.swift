@@ -8,7 +8,7 @@
 
 import UIKit
 
-//4 adopt the protocol
+//MARK: step 4 adopt the protocol here
 class ClassAVC: UIViewController {
 
     override func viewDidLoad() {
@@ -16,7 +16,7 @@ class ClassAVC: UIViewController {
 
     }
     
-    //and finally conform the protocol.
+//MARK: step 5 and finally conform the protocol here
     
     
 }
