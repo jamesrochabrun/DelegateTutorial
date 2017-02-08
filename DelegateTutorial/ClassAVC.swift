@@ -16,8 +16,15 @@ class ClassAVC: UIViewController {
 
     }
     
-//MARK: step 5 and finally conform the protocol here
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    //MARK: step 5 create a reference of Class B and bind them through the prepareforsegue method
+
+    }
     
+    //MARK: step 6 finally use the method of the contract here
+
     
+
 }
 
