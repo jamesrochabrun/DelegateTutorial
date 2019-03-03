@@ -8,7 +8,7 @@
 
 import UIKit
 
-//MARK: step 1 Add Protoclo here
+//MARK: step 1 Add Protocol here
 
 class ClassBVC: UIViewController {
     
